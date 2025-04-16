@@ -1,12 +1,81 @@
-# React + Vite
+# Tapistro UMS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive User Management System built with React (Vite), Node.js, and MySQL, featuring Google authentication and role-based access control.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ** Google Authentication** - Secure login with Google OAuth 2.0
+- ** Role-Based Access Control** - Admin and User role permissions
+- ** User Management** - Add, edit, and remove users with different roles
+- ** Responsive Design** - Works seamlessly on desktop and mobile devices
+- ** Dark/Light Mode** - Customizable UI theme for better user experience
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Login Page](./assets/Login Page.png)
+*Login page with Google authentication*
+
+![Dashboard](./assets/images/dashboard.png)
+*User dashboard after successful authentication*
+
+![User Management](./assets/images/user-management.png)
+*Admin panel for managing users and roles*
+
+## Tech Stack
+
+- **Frontend**: React 18 with Vite, Material UI 5
+- **Backend**: Node.js, Express
+- **Database**: MySQL
+- **Authentication**: Google OAuth 2.0, JWT
+
+## Application Workflow
+
+### Authentication Flow
+
+1. User navigates to the login page
+2. User clicks on "Sign in with Google" button
+3. After successful authentication, the user is redirected to the dashboard
+4. The system automatically assigns roles based on email (admin for pre-configured emails)
+
+### User Management (Admin Only)
+
+1. Admin users can view a list of all registered users
+2. Admins can add new users manually
+3. Admins can edit user details and assign/remove roles
+4. Admins can delete users
+
+## Installation and Setup
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- MySQL (v8 or later)
+- Google OAuth credentials
+
+### Backend & Frontend Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/tapistro-ums.git
+
+# Navigate to backend directory
+cd tapistro-ums/backend
+
+# Install dependencies
+npm install
+
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your database and Google OAuth credentials
+
+# Start the server
+npm start
+
+# Navigate to frontend directory
+cd ../frontend-vite
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
