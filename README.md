@@ -4,22 +4,37 @@ A comprehensive User Management System built with React (Vite), Node.js, and MyS
 
 ## Features
 
-- ** Google Authentication** - Secure login with Google OAuth 2.0
-- ** Role-Based Access Control** - Admin and User role permissions
-- ** User Management** - Add, edit, and remove users with different roles
-- ** Responsive Design** - Works seamlessly on desktop and mobile devices
-- ** Dark/Light Mode** - Customizable UI theme for better user experience
+- **Google Authentication** - Secure login with Google OAuth 2.0
+- **Role-Based Access Control** - Admin and User role permissions
+- **User Management** - Add, edit, and remove users with different roles
+- **Responsive Design** - Works seamlessly on desktop and mobile devices
+- **Dark/Light Mode** - Customizable UI theme for better user experience
 
 ## Screenshots
 
-![Login Page](assests/Login Page.png)
+## Screenshots
+
+![Login Page](assets/Login%20Page.png)
 *Login page with Google authentication*
 
-![Dashboard](./assets/images/dashboard.png)
+![Dashboard](assets/Dashboard.png)
 *User dashboard after successful authentication*
 
-![User Management](./assets/images/user-management.png)
+![User Management](assets/Admin%20Panel%20-%20Users.png)
 *Admin panel for managing users and roles*
+
+![Role Management](assets/Admin%20Panel%20-%20Roles.png)
+*Role assignment interface*
+
+![Permissions](assets/Admin%20Panel%20-%20Permissions.png)
+*Permissions management section*
+
+![Settings Page](assets/Settings%20.png)
+*User settings panel*
+
+![Mobile View](assets/Mobile%20View.png)
+*Responsive mobile layout*
+
 
 ## Tech Stack
 
