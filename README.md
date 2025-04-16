@@ -12,28 +12,27 @@ A comprehensive User Management System built with React (Vite), Node.js, and MyS
 
 ## Screenshots
 
-## Screenshots
-
-![Login Page](assets/Login%20Page.png)
+![Login Page](assets/Login%20Page.png)  
 *Login page with Google authentication*
 
-![Dashboard](assets/Dashboard.png)
+![Dashboard](assets/Dashboard.png)  
 *User dashboard after successful authentication*
 
-![User Management](assets/Admin%20Panel%20-%20Users.png)
+![User Management](assets/Admin%20Panel%20-%20Users.png)  
 *Admin panel for managing users and roles*
 
-![Role Management](assets/Admin%20Panel%20-%20Roles.png)
+![Role Management](assets/Admin%20Panel%20-%20Roles.png)  
 *Role assignment interface*
 
-![Permissions](assets/Admin%20Panel%20-%20Permissions.png)
+![Permissions](assets/Admin%20Panel%20-%20Permissions.png)  
 *Permissions management section*
 
-![Settings Page](assets/Settings%20.png)
+![Settings Page](assets/Settings%20.png)  
 *User settings panel*
 
-![Mobile View](assets/Mobile%20View.png)
+![Mobile View](assets/Mobile%20View.png)  
 *Responsive mobile layout*
+
 
 
 ## Tech Stack
