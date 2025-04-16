@@ -12,7 +12,7 @@ A comprehensive User Management System built with React (Vite), Node.js, and MyS
 
 ## Screenshots
 
-![Login Page](./assets/Login Page.png)
+![Login Page](assests/Login Page.png)
 *Login page with Google authentication*
 
 ![Dashboard](./assets/images/dashboard.png)
